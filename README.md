@@ -1,5 +1,16 @@
 # Pizza Sales Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Recommedations](#recommedations)
+- [Results and Findings](#results-and-findings)
+- [References](#references)
+
 ### Project Overview
 ---
 This analysis aims to provide insights about a Pizza Sales joint for a period of one year. By analyzing various aspects we seek to indentify trends, make data driven recommedations and gain deeper understanding of pizza sales joint for the period of one year.
