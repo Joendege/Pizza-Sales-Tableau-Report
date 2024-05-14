@@ -1,22 +1,35 @@
 # Pizza Sales Analysis
 
 ### Project Overview
+---
 This analysis aims to provide insights about a Pizza Sales joint for a period of one year. By analyzing various aspects we seek to indentify trends, make data driven recommedations and gain deeper understanding of pizza sales joint for the period of one year.
 
+#### KPI's
+![pizza_sales_1](https://github.com/Joendege/Pizza-Sales-Tableau-Report/assets/123901910/44589923-335e-4d34-a802-96c1042d0f20)
+
+#### Best/Worst Sellors
+
+![pizza_sales_2](https://github.com/Joendege/Pizza-Sales-Tableau-Report/assets/123901910/050b2aee-810c-473a-96e5-e222eae17b1c)
+
+
 ### Data Sources
+---
 Sales Data: The primary data source used for this analysis is "pizza_sales.csv" file containing each sale record of the pizza sales joint
 
 ### Tools
+---
 - MS SQL Server- Data Analysis [Download Here](https://www.microsoft.com)
 - Tableau Public- Data Visualization [Download Here](https://www.tableau.com/products/desktop/download)
 
 ### Data Cleaning and Preparation
+---
 In this phase I performed the following tasks:
  1. Data loading and Inspection
  2. Data Calculations- Using Tableau calculated fields and also creating aliases.
 
 
 ### Exploratory Data Analysis
+---
 EDA involved exploring the pizza sales data to answer key questions as:
 1. How many customers do we have each day? Are there any peak hours?
 2. How many pizzas are typically in an orders? Do we have any bestsellors?
@@ -25,6 +38,7 @@ EDA involved exploring the pizza sales data to answer key questions as:
 
 
 ### Data Analysis
+---
 ```SQL
 -- Total Revenue--
 SELECT ROUND(SUM(total_price), 2) AS Total_Revenue
@@ -119,6 +133,7 @@ ORDER BY a.day_number
 ```
 
 ### Recommedations
+---
 Based on analysis, we recommend the following action:
 - Invest in marketing and brand promotions for the worst performing pizzas during the peak hours to increase total orders made
 - Offer free bites of the worst performing pizzas to customers to create awareness
@@ -126,6 +141,7 @@ Based on analysis, we recommend the following action:
 
 
 ### Results and Findings
+---
 The analysis results are summarized as follows:
 - Peak hours is between 12 noon and 1 p.m. and in the evening between 5 p.m. and 7 p.m.
 - Highest peak is the 48 week in the month of Dec.
@@ -137,6 +153,7 @@ The analysis results are summarized as follows:
 
 
 ### References
+---
 - [SQL W3Schools](https://www.w3schools.com/sql/default.asp)
 - [Stack Overflow](https://stackoverflow.com/)
 - [Tableau Calculations](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)
